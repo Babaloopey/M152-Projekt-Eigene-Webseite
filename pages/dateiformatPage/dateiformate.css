@@ -1,0 +1,9 @@
+.picture-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 10%;
+}
+
+.cell {
+    border-left: solid rgba(255, 255, 255, 0.125) 2px;
+}
