@@ -5,5 +5,10 @@
 }
 
 .cell {
-    border-left: solid rgba(255, 255, 255, 0.125) 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.video-frame {
+    margin: 0px;
 }
