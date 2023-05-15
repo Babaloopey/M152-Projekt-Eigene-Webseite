@@ -1,0 +1,105 @@
+
+.move-forth-and-backwards {
+    width: 100px;
+    height: 100px;
+    visibility: visible;
+    background-color: blue;
+    position: relative;
+
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.move-forth-and-backwards:hover {
+    background-color: rgb(145, 255, 0);
+    transform: translateX(400px);
+}
+
+.animation-on-hover {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.animation-on-hover:hover {
+    transition: all 2s 0s ease;
+    transform: rotate(360deg);
+}
+
+@keyframes runterhoch {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(100px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes linksrechts {
+    0% {
+        transform: translateX(0);
+        background-color: green;
+    }
+
+    100% {
+        transform: translateX(1000px);
+        background-color: green;
+    }
+}
+
+.send-animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: linksrechts, runterhoch;
+    animation-duration: 3s, 2s;
+    animation-delay: 2s, 0s;
+    animation-timing-function: ease-in, ease-out;
+}
+
+@keyframes bigger {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(0.75);
+    }
+
+    100% {
+        transform: scale(3);
+    }
+
+}
+
+.bigger-on-hover {
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+
+}
+
+.bigger-on-hover:hover {
+    animation-name: bigger;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+.gif {
+  text-align: left;
+}
