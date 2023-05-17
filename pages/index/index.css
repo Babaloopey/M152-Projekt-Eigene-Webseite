@@ -1,3 +1,27 @@
 .scrollbar {
     overflow-y: auto;
 }
+
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #4285f4;
+    padding: 10px;
+    text-align: center;
+    z-index: 999;
+}
+
+#cookie-banner .button {
+    background: #4285f4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    z-index: 999;
+}
+
+#cookie-banner.hide {
+    display: none;
+}

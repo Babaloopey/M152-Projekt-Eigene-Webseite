@@ -21,14 +21,14 @@ function draw() {
         time.getSeconds() + ((2 * Math.PI) / 60000) *
         time.getMilliseconds()) * 20);
     ctx.translate(200, 0);
-    ctx.drawImage(plane, -12, -12);
+    ctx.drawImage(plane, -12, -12,20, 50);
     ctx.restore();
     // plane orbit
     ctx.beginPath();
     ctx.arc(250, 250, 200, 0,
         Math.PI * 2, false);
     ctx.stroke();
-    ctx.drawImage(earth, 0, 100, 500, 300);
+    ctx.drawImage(earth, 50, 55, 400, 400);
     window.requestAnimationFrame(draw);
 }
 init();

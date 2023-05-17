@@ -1,4 +1,9 @@
 
+.flex-right{
+    display: flex;
+    justify-content: end;
+}
+
 .move-forth-and-backwards {
     width: 100px;
     height: 100px;

@@ -4,7 +4,7 @@ body {
   }
 
 .container {
-    height: 300vh;
+    height: 250vh;
     /* Set container height to be greater than viewport height */
 }
 
@@ -15,6 +15,7 @@ body {
 
 
 .layer-1 {
+    display: inline;
     background-image: url("../../images/layer-background.png");
     width:200%;
     height:200%;
@@ -28,11 +29,11 @@ body {
 .layer-2 {
     background-image: url("../../images/moon.png");
     width:100%;
-    height:100%;
+    height:120%;
     top:800px;
-    left:0;
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
     z-index: -3;
 }
 
@@ -50,8 +51,8 @@ body {
 .layer-4 {
     background-image: url("../../images/layer-mountain-1.png");
     width:140%;
-    height:140%;
-    top:5vw;
+    height:155%;
+    top:0;
     left:-25vw;
     background-repeat: no-repeat;
     background-size: cover;
