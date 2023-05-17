@@ -1,4 +1,4 @@
-.wireframe-container{
+.wireframe-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     row-gap: 1rem;

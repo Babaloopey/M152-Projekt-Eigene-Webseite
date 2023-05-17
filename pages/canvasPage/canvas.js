@@ -21,7 +21,7 @@ function draw() {
         time.getSeconds() + ((2 * Math.PI) / 60000) *
         time.getMilliseconds()) * 20);
     ctx.translate(200, 0);
-    ctx.drawImage(plane, -12, -12,20, 50);
+    ctx.drawImage(plane, -12, -12, 20, 50);
     ctx.restore();
     // plane orbit
     ctx.beginPath();
